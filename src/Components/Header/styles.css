@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2b2b;
+    padding: 0 20px;
+}
+
+.logo{
+    transform: scale(0.6);
+}
+
+.navIcon{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.list, .innerList{
+    list-style: none;
+}
+
+.listBtn:hover{
+    border: 1px solid;
+}

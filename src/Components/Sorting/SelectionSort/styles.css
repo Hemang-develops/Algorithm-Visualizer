@@ -1,0 +1,63 @@
+.selectionSortContainer{
+    margin-top: 50px;
+}
+
+
+.selectedItem{
+    background-color: green;
+}
+
+.preSelectedItem{
+    background-color: darkgoldenrod;
+}
+
+.sortBtn{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* .listItem{
+    border: 1px solid;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+}
+
+
+.listUL{
+    display: flex;
+} */
+
+.arrowList{
+    list-style: none;
+    display: flex;
+    width: 500px;
+}
+.arrowItem{
+    /* border: 1px solid; */
+    margin: 5px;
+    width: 30px;
+    text-align: center;
+    flex: 1;
+}
+
+.listUL {
+    /* Remove default list styles (optional) */
+    list-style: none;
+    align-items: center;
+    display: flex;
+    width: 500px;
+}
+
+
+.listitem {
+    padding: 5px 10px; /* Example padding */
+    margin: 0 5px; /* Example margin */
+    border: 1px solid #ddd; /* Example border */
+    flex: 1;
+    text-align: center;
+}
+
+.hidarrow{
+    opacity: 0;
+}
