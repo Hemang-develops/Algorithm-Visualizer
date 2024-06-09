@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "../UI/HeroHighLight";
-import { Link } from 'react-router-dom'; // For navigation links (assuming you're using React Router)
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';

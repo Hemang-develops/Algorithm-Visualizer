@@ -46,6 +46,7 @@ const SelectionSort = () => {
             <ul className="arrowList">{
                 arr.length > 0 && arr.map((item, index) => {
                         if(index === prevSelectedItem || index === selectedItem){
+                          console.log(item);
                             return <><li className='arrowItem' key={index}><FontAwesomeIcon icon={faArrowDown} size='2xl' /></li>{
                           index < arr.length - 1 && (
                             <span className='hidarrow'>
